@@ -14,11 +14,19 @@ public class HistoireTP4 {
 //		prof.acheter("kimono", 50);
 		
 //		Exercice 2:		
-		Commercant marco = new Commercant("Marco", 20);
-		marco.direBonjour();
-		marco.seFaireEscroquer();
-		marco.recevoir(15);
-		marco.boire();
+		Commercant marco = new Commercant("Marco", 15);
+//		marco.direBonjour();
+//		marco.seFaireEscroquer();
+//		marco.recevoir(15);
+//		marco.boire();
+
+		
+//		Exo 2.2
+		
+		Yakusa yaku = new Yakusa ("Yaku le noir","whiskey" ,30, "Warsong"); 
+		yaku.direBonjour();
+		
+		yaku.extorquer(marco);
 		
 		}
 
