@@ -23,10 +23,9 @@ public class HistoireTP4 {
 		
 //		Exo 2.2
 		
-		Yakusa yaku = new Yakusa ("Yaku le noir","whiskey" ,30, "Warsong"); 
-		yaku.direBonjour();
-		
-		yaku.extorquer(marco);
+//		Yakusa yaku = new Yakusa ("Yaku le noir","whiskey" ,30, "Warsong"); 
+//		yaku.direBonjour();
+//		yaku.extorquer(marco);
 		
 		}
 

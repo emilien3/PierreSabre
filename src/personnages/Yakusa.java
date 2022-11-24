@@ -3,9 +3,11 @@ package personnages;
 public class Yakusa extends Humain {
 	
 	private int reputation = 0;
+	private String clan;
 	
 	public Yakusa(String nom, String boisson, int qttArgent, String clan) {
 		super(nom, boisson, qttArgent);
+		this.clan = clan ;
 	}
 	
 	public void extorquer(Commercant victime){
