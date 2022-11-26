@@ -10,8 +10,14 @@ public class Ronin extends Humain {
 	}
 	
 	public void donner(Commercant beneficiaire) {
-		double argentDonner = qttArgent * 0.10 ;
-		parler(beneficiaire + " prend ces "+argentDonner+ " sous.");
+		
+		double give = qttArgent * 0.10 ;
+		
+		int argentDonner = (int)give;
+		
+		parler(beneficiaire.getNom() + " prend ces "+argentDonner+ " sous.");
+		beneficiaire.gagnerArgent(argentDonner);
 		beneficiaire.parler(argentDonner +" sous ! Je te remercie généreux donateur!");
+		
 	}
 }
