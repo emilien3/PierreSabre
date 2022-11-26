@@ -14,7 +14,7 @@ public class HistoireTP4 {
 //		prof.acheter("kimono", 50);
 		
 //		Exercice 2:		
-		Commercant marco = new Commercant("Marco", 15);
+//		Commercant marco = new Commercant("Marco", 15);
 //		marco.direBonjour();
 //		marco.seFaireEscroquer();
 //		marco.recevoir(15);
@@ -23,7 +23,7 @@ public class HistoireTP4 {
 		
 //		Exo 2.2
 		
-//		Yakusa yaku = new Yakusa ("Yaku le noir","whiskey" ,30, "Warsong"); 
+		Yakusa yaku = new Yakusa ("Yaku le noir","whiskey" ,30, "Warsong"); 
 //		yaku.direBonjour();
 //		yaku.extorquer(marco);
 		
@@ -31,11 +31,10 @@ public class HistoireTP4 {
 		//Exo 2.3 Ronin
 		
 		Ronin roro = new Ronin ("Roro", "shochu", 60);
+//		roro.direBonjour();
+//		roro.donner(marco);
 		
-		roro.direBonjour();
-		
-		roro.donner(marco);
-		
+		roro.provoquer(yaku);
 		
 		
 		
