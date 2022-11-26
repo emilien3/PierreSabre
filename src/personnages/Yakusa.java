@@ -2,7 +2,7 @@ package personnages;
 
 public class Yakusa extends Humain {
 	
-	private int reputation = 4;
+	private int reputation = 0;
 	private String clan;
 	
 	public Yakusa(String nom, String boisson, int qttArgent, String clan) {
