@@ -13,14 +13,16 @@ public class HistoireTP5 {
 		Ronin roro = new Ronin("Roro", "shochu", 60);
 		
 		
-		marco.faireConnaissanceAvec(roro);
-		marco.faireConnaissanceAvec(yaku);
-		marco.faireConnaissanceAvec(chonin);
-		marco.faireConnaissanceAvec(kumi);
+//		marco.faireConnaissanceAvec(roro);
+//		marco.faireConnaissanceAvec(yaku);
+//		marco.faireConnaissanceAvec(chonin);
+//		marco.faireConnaissanceAvec(kumi);
+//		
+//		marco.listerConnaissance();
+//		roro.listerConnaissance();
+//		yaku.listerConnaissance();
 		
-		marco.listerConnaissance();
-		roro.listerConnaissance();
-		yaku.listerConnaissance();
+		yaku.direBonjour();
 	}
 
 }

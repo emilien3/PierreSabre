@@ -36,6 +36,7 @@ public class Humain {
 		System.out.println(prendreParole() + texte);
 	}
 	
+	
 	public void direBonjour() {
 		parler("Bonjour ! Je m'appelle " + getNom() +" et j'aime boire du " + getBoisson() );
 	}
