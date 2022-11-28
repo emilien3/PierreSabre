@@ -25,14 +25,14 @@ public class Yakusa extends Humain {
 		victime.seFaireEscroquer();
 		reputation += 1;
 		
-		parler("J'ai piqué les "+ argentVole+ " sous de "+victime.getNom()+ ", ce qui me fait "+qttArgent+" sous dans ma poche. Hi! Hi! ");
+		parler("J'ai piqué les "+ argentVole+ " sous de "+victime.getNom()+ ", ce qui me fait "+getQttArgent()+" sous dans ma poche. Hi! Hi! ");
 	}
 	
 	public void perdre() {
 		
-		parler("J’ai perdu mon duel et mes "+ qttArgent+ " sous, snif... J'ai déshonoré le clan de "+ clan+".");
+		parler("J’ai perdu mon duel et mes "+ getQttArgent()+ " sous, snif... J'ai déshonoré le clan de "+ clan+".");
 		reputation -=1;
-		perdreArgent(qttArgent);
+		perdreArgent(getQttArgent());
 	}
 	
 	public void gagner(int gain) {
