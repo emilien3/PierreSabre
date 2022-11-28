@@ -6,7 +6,7 @@ public class Humain {
 	private String boisson ;
 	protected int qttArgent ;
 	protected int nbConnaissance = 0;
-	protected Humain[] memoire = new Humain[3] ; 
+	protected Humain[] memoire = new Humain[30] ; 
 	
 	
 	public Humain(String nom, String boisson, int qttArgent) {
@@ -72,10 +72,9 @@ public class Humain {
 	
 	private void memoriser (Humain humain) {
 		
-		if (nbConnaissance > memoire.length) {
-			Humain[] memoire2 = new Humain[3];
-			for (int i = 1 ; i<memoire.length; i++){
-				memoire2[i-1] = memoire[i];
+		if (nbConnaissance == memoire.length) {
+			for (int i = 1;i < memoire.length;i++){
+				memoire[i-1]=memoire[i];
 			}
 		nbConnaissance -= 1;
 		}
