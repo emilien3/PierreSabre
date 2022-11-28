@@ -39,6 +39,7 @@ public class Ronin extends Humain {
 			honneur-=1;
 		}
 	}
+
 }
 
 
